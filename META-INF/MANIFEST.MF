@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Translater
+Bundle-SymbolicName: translater;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.jface.text;bundle-version="3.11.2",
+ org.eclipse.core.runtime;bundle-version="3.12.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ClassPath: .,
+ lib/okio-1.11.0.jar,
+ lib/okhttp-3.6.0.jar,
+ lib/gson-2.8.0.jar
